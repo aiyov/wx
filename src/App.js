@@ -37,22 +37,22 @@ class App extends React.Component {
               key="sub1"
               title={<span><Icon type="user" /><span>用户管理</span></span>}
             >
-              <Menu.Item key="3">用户编辑</Menu.Item>
-              <Menu.Item key="4">黑名单</Menu.Item>
+              <Menu.Item key="1">用户编辑</Menu.Item>
+              <Menu.Item key="2">黑名单</Menu.Item>
             </SubMenu>
 
             <SubMenu
-              key="sub1"
+              key="sub2"
               title={<span><Icon type="user" /><span>素材管理</span></span>}
             >
               <Menu.Item key="3">新增素材</Menu.Item>
               <Menu.Item key="4">素材编辑</Menu.Item>
             </SubMenu>
-            <Menu.Item key="2">
+            <Menu.Item key="5">
               <Icon type="video-camera" />
               <span>nav 2</span>
             </Menu.Item>
-            <Menu.Item key="3">
+            <Menu.Item key="6">
               <Icon type="upload" />
               <span>nav 3</span>
             </Menu.Item>
