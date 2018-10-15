@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+
+.ant-layout .trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color .3s;
+}
+
+.ant-layout .trigger:hover {
+  color: #1890ff;
+}
+
+.ant-layout .logo {
+  height: 32px;
+  background: #1890ff;
+  margin: 16px;
+}
